@@ -1,4 +1,4 @@
-package be.ehb.multec;
+package be.ehb.multec.decorator;
 
 import java.awt.*;
 
@@ -10,7 +10,7 @@ public abstract class ColorDecorator extends Lamp{
         this.lamp=lamp;
     }
 
-    protected Color color(){
+    public Color color(){
         return lamp.color;
     }
 

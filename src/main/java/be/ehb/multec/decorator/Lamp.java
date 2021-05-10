@@ -1,4 +1,4 @@
-package be.ehb.multec;
+package be.ehb.multec.decorator;
 
 import java.awt.*;
 
@@ -6,6 +6,8 @@ public abstract class Lamp {
 
     private String description;
     public Color color;
+
+
 
     public void setDescription(String description){
         this.description=description;
@@ -15,6 +17,11 @@ public abstract class Lamp {
         return description;
     }
 
-    protected abstract Color color();
+    public abstract Color color();
+
+    @Override
+    public String toString() {
+        return "color[" + color.getRed() + ", " + color.getGreen() + ", " + color.getBlue() + "]";
+    }
 
 }

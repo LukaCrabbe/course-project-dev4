@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="be.ehb.multec.LampTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-07T13:40:32" hostname="LAPTOP-9V67Q14R" time="0.021">
+<testsuite name="be.ehb.multec.LampTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-10T11:32:52" hostname="LAPTOP-9V67Q14R" time="0.025">
   <properties/>
-  <testcase name="lampColor" classname="be.ehb.multec.LampTest" time="0.021"/>
-  <system-out><![CDATA[Hallogen Lamp,Blue,Yellow,Red,Green-16711936
-]]></system-out>
+  <testcase name="lampBlue" classname="be.ehb.multec.LampTest" time="0.024"/>
+  <testcase name="allColors" classname="be.ehb.multec.LampTest" time="0.0"/>
+  <testcase name="lampRed" classname="be.ehb.multec.LampTest" time="0.0"/>
+  <testcase name="lampGreen" classname="be.ehb.multec.LampTest" time="0.0"/>
+  <testcase name="lampYellow" classname="be.ehb.multec.LampTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

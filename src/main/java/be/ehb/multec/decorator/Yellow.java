@@ -1,4 +1,4 @@
-package be.ehb.multec;
+package be.ehb.multec.decorator;
 
 import java.awt.*;
 
@@ -14,7 +14,7 @@ public class Yellow extends ColorDecorator{
     }
 
     @Override
-    protected Color color(){
+    public Color color(){
         return color;
     }
 
