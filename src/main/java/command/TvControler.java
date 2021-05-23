@@ -6,6 +6,9 @@ public class TvControler {
 
         return new TvReciever();
     }
+    public static String recieved(){
+        return "connection made";
+    }
 
 
 }

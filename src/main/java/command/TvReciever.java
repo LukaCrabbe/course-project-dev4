@@ -1,7 +1,5 @@
 package command;
 
-import command.Device;
-
 public class TvReciever implements Device {
 
     private int volume = 0;
@@ -11,7 +9,6 @@ public class TvReciever implements Device {
     @Override
     public void tvOn() {
         System.out.println("tv is on");
-
     }
 
     @Override
@@ -32,6 +29,10 @@ public class TvReciever implements Device {
         volume--;
         System.out.println("volume = " + volume);
 
+    }
+
+    public static String recieved(){
+        return "signal recieved";
     }
 
 

@@ -1,7 +1,5 @@
 package command;
 
-import command.Command;
-
 public class TheButton {
 
     Command command;
@@ -14,5 +12,8 @@ public class TheButton {
 
     public void press(){
         command.execute();
+    }
+    public static String pressed(){
+        return "button is pressed";
     }
 }

@@ -1,7 +1,5 @@
 package command;
 
-import command.Device;
-
 public class Light implements Device {
     private int color = 0;
 
@@ -10,7 +8,6 @@ public class Light implements Device {
     @Override
     public void tvOn() {
         System.out.println("lamp is on");
-
     }
 
     @Override
@@ -31,6 +28,10 @@ public class Light implements Device {
         color--;
         System.out.println("color = " + color);
 
+    }
+
+    public static String lightInput(){
+        return "ligt works";
     }
 
 }

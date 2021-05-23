@@ -1,8 +1,5 @@
 package command;
 
-import command.Command;
-import command.Device;
-
 public class TvVolUp implements Command {
 
     Device device;
