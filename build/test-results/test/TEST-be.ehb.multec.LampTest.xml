@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="be.ehb.multec.LampTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-10T11:32:52" hostname="LAPTOP-9V67Q14R" time="0.025">
+<testsuite name="be.ehb.multec.LampTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-22T16:20:09" hostname="LAPTOP-9V67Q14R" time="0.047">
   <properties/>
-  <testcase name="lampBlue" classname="be.ehb.multec.LampTest" time="0.024"/>
-  <testcase name="allColors" classname="be.ehb.multec.LampTest" time="0.0"/>
+  <testcase name="lampBlue" classname="be.ehb.multec.LampTest" time="0.044"/>
+  <testcase name="allColors" classname="be.ehb.multec.LampTest" time="0.001"/>
   <testcase name="lampRed" classname="be.ehb.multec.LampTest" time="0.0"/>
   <testcase name="lampGreen" classname="be.ehb.multec.LampTest" time="0.0"/>
   <testcase name="lampYellow" classname="be.ehb.multec.LampTest" time="0.0"/>
