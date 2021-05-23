@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LampTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-22T16:33:03" hostname="LAPTOP-D1OP5GS9" time="0.022">
+  <properties/>
+  <testcase name="lampBlue" classname="LampTest" time="0.021"/>
+  <testcase name="allColors" classname="LampTest" time="0.0"/>
+  <testcase name="lampRed" classname="LampTest" time="0.0"/>
+  <testcase name="lampGreen" classname="LampTest" time="0.0"/>
+  <testcase name="lampYellow" classname="LampTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
